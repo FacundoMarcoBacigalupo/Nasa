@@ -28,7 +28,7 @@ function showData ({ date, explanation, media_type, title, url }){
 
     const multimedia = document.querySelector("#multimedia")
     if(media_type == "video"){
-        multimedia.innerHTML = `<iframe class="embed-responsive-item" src="${url}"></iframe>`
+        multimedia.innerHTML = `<iframe class="embed-responsive-item" src="${url}" allowfullscreen></iframe>`
     }
     else{
         multimedia.innerHTML = `<img src="${url}" style="max-width: 90%; border-radius: 10px;" class="img-fluid" alt="${title}">` 
