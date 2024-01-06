@@ -1,0 +1,77 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+}
+
+
+
+body{
+    background-image: url("./imgs/galaxy.jpg");
+}
+
+
+#titleOfTheWebSite{
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+    margin: 50px;
+    border-bottom: solid 1px #333333;
+    color: #e0e0e0;
+}
+
+
+
+#today{
+    font-size: 26px;
+    font-weight: 600;
+    text-align: left;
+    margin-left: 50px;
+    color: #e0e0e0;
+}
+
+
+
+#container{
+    background-color: #ebebeb;
+    background-image: url("https://uploads-ssl.webflow.com/62e3ee10882dc50bcae8d07a/631a5d4631d4c55a475f3e34_noise-50.png");
+    background-position: 0 0;
+    background-size: 200px 200px;
+    color: #1a1a1a;
+    border: solid 1px #1a1a1a;
+    box-shadow: 1px 1px 20px #1a1a1a;
+    margin: 100px;
+    border-radius: 10px;
+}
+
+
+
+#titles{
+    font-size: 30px;
+    font-weight: lighter;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+#dates{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: center;
+    margin: 20px;
+}
+
+
+
+#explanations{
+    font-size: 18px;
+    font-weight: 500;
+    text-align: left;
+    margin: 40px;
+}
+
+#explanations::first-letter{
+    font-size: 26px;
+}
